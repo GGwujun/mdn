@@ -1,0 +1,58 @@
+{
+  "name": "mdn",
+  "version": "1.1.0",
+  "description": "mdn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.config.js",
+    "builder": "node build/build.js"
+  },
+  "keywords": [],
+  "author": "dsx",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "mobeditor": "^1.0.6",
+    "pagerefresh": "0.0.5",
+    "pageui": "^1.0.2",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.18.2",
+    "uglify-js": "^3.0.23",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^12.0.3",
+    "vue-template-compiler": "^2.3.2",
+    "wangeditor": "^3.0.15",
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "crypto-js": "^3.1.9-1",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "expose-loader": "^0.7.3",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-scss": "^0.3.0",
+    "uglify-js": "^3.1.3",
+    "vue": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GGwujun/mdn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GGwujun/mdn/issues"
+  },
+  "homepage": "https://github.com/GGwujun/mdn#readme"
+}
